@@ -1,6 +1,15 @@
 * {
   box-sizing: border-box;
 }
+/*box-sizing:border-box; kiểu đóng khung*/
+/*padding: khoảng trống giữ viền và nội dụng*/
+/*margin: khoảng cách giữ các viền*/
+/*font-family: font chữ*/
+/*text-align : căn lề chữ*/
+/*background :giao diện trang web */
+/*font-size: 40px; kích cỡ chữ*/
+/*clear:both; xóa kiểu định dạng bảng*/
+/*display:table; định dạng theo kiểu bảng*/
 body{
   font-family: arial;
   padding: 20px;
@@ -8,14 +17,13 @@ body{
 }
 .header{
 padding: 30px;
-font-size: 40px;
+font-size: 40px; /*kích cỡ chữ*/
 text-align: center;
 background-color: white;
 }
 .leftcolumn{
   float:left;
   width: 75%;
-
 }
 .rightcolumn{
   float: left;
